@@ -7,14 +7,18 @@ import { DashboardModule } from './dashboard/dashboard.module';
 
 
 
+
+
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [
     CommonModule,
     ProductsModule,
     OrderModule,
     CustomerModule,
-    DashboardModule 
+    DashboardModule
+    
   ]
 })
 export class ComponentsModule { }

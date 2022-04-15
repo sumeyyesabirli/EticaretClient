@@ -11,7 +11,8 @@ import { ComponentsModule } from './components/components.module';
   imports: [
     CommonModule,
     LayoutModule,
-    ComponentsModule
+    ComponentsModule,
+    
     
   ],
   exports:[

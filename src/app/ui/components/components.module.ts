@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductsModule } from './products/products.module';
-import { HomeComponent } from './home/home.component';
-import { DashboardComponent } from 'src/app/admin/components/dashboard/dashboard.component';
-
+import { HomeModule } from './home/home.module';
+import { BasketsModule } from './baskets/baskets.module';
 
 
 @NgModule({
@@ -11,8 +10,8 @@ import { DashboardComponent } from 'src/app/admin/components/dashboard/dashboard
   imports: [
     CommonModule,
     ProductsModule,
-    HomeComponent,
-    DashboardComponent,
+    HomeModule,
+    BasketsModule
   ]
 })
 export class ComponentsModule { }
