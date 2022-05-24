@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+declare var $: any
 
 @Component({
   selector: 'app-root',
@@ -12,3 +13,6 @@ export class AppComponent {
     
   }
 }
+$ (document).ready(()=>{
+  alert("uykum var")
+})
