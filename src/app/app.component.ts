@@ -13,6 +13,4 @@ export class AppComponent {
     
   }
 }
-$ (document).ready(()=>{
-  alert("uykum var")
-})
+
