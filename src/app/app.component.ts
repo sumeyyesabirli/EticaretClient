@@ -11,13 +11,8 @@ declare var $: any
 export class AppComponent {
   title = 'EticaretClient';
  
-  constructor(private toastrService: CustomerToastrService) {
-    toastrService.message("Mehaba","Deneme", {messageType: ToastrMessageType.Info,
-      position: ToastrPosition.BottomCenter});
-    toastrService.message("Mehaba","Deneme", {messageType:  ToastrMessageType.Error, position: ToastrPosition.BottomFullWidth});
-    toastrService.message("Mehaba","Deneme", {messageType: ToastrMessageType.Warning, position: ToastrPosition.BottomLeft});
-    toastrService.message("Mehaba","Deneme", {messageType:  ToastrMessageType.Success, position: ToastrPosition.TopLeft});
-
+  constructor( ) {
+    
   }
 }
 

@@ -13,4 +13,4 @@ import { ComponentsModule } from './components/components.module';
     
   ]
 })
-export class UiModule { }
+export class UiModule{ }
